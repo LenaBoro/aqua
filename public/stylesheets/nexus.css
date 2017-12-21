@@ -654,7 +654,7 @@
         height: 13em;
     }
     .block-about-text{
-        height:10em;
+        height:11em;
     }
     table{
         width: 100%;
@@ -1103,7 +1103,7 @@
         margin-left: 6%;
     }
     .video-opactity {
-        height: 125.5em;
+        height: 165.5em;
     }
     video {
         transform: scale(4.7);
@@ -1113,7 +1113,7 @@
         height: 13em;
     }
     .block-about-text {
-        height:11em;
+        height:13em;
         margin: auto;
     }
     table {
