@@ -12,7 +12,8 @@ var transport = mailer.createTransport(smtpTransport,{
         user: "nodejs06@gmail.com",
         pass: "20072017"
     }
-    ,tls: {rejectUnauthorized: false
+    ,tls: {
+        secureProtocol: "TLSv1_method"
     }
 });
 
