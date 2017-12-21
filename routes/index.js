@@ -5,12 +5,14 @@ var mailer = require('nodemailer');
 //send on enail info
 
 var transport = mailer.createTransport({
-
+    service: "Gmail",
+    host: "smtp.gmail.com",
+    secure: false,
     auth:{
         user: "nodejs06@gmail.com",
         pass: "20072017"
     }
-    
+    , tls : {rejectUnauthorized :  false }
 });
 
 router.get('/', function(req, res) {
