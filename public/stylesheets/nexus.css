@@ -1,0 +1,917 @@
+
+@media screen and (max-width: 1370px) and (min-width: 1024px)and (orientation: landscape) {
+    .container{
+        height:55em;
+        background: url('../images/landscape1300.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-y: -4em;
+    }
+    .header{
+        width: 44%;
+        left:30%;
+    }
+    .block-logo{
+        padding-top: 3.5em;
+    }
+    .img-logo{
+        width: 25%;
+    }
+
+    .review{
+        height: 53.5em;
+    }
+    .present {
+        opacity: 0.69;
+        width: 44%;
+        height: 93%;
+        left:30%;
+    }
+    .present-span{
+        font-size: 1em;
+    }
+    .block-text {
+        width: 100%;
+        margin-top: 21%;
+    }
+    #small-span {
+        padding-top: 10%;
+        font-size: 1.5em;
+        color: #fff6a9;
+        line-height: 1.3;
+    }
+    #ownsea {
+        font-size: 5.7em;
+    }
+    .catalogy-h {
+        margin: 0 0 0.5em 2em;
+        font-size: 2.6em;
+        padding-top: 1.2em;
+    }
+    .wrapper {
+        width:100%;
+        padding-top: 1em;
+    }
+    .item_title {
+        font-size: 1.2em;
+        padding-top: 10%;
+    }
+    .block-image {
+        margin-top: 10%;
+        width: 100%;
+        height: 11.5em;
+    }
+    .catalogy-a, .callback-span {
+        padding: .7em 0.5em;
+        left:65%;
+    }
+    .catalogy{
+        height:100%;
+    }
+    .send-data {
+        opacity: .87;
+        margin: 0 auto;
+        height: 12.2em;
+    }
+
+    input[type="text"], [type="email"] {
+        margin-bottom: 6%;
+    }
+    #message {
+        font-size: 1em;
+        margin-top: .51em;
+        margin-right: 0;
+    }
+    #send{
+        margin-left: 2%;
+    }
+    .contacts {
+        height: 30em;
+    }
+
+    .back-wall,.left-wall{
+        float: right;
+    }
+    .block{
+        width: 22%;
+        margin-left: 2.5%;
+        margin-right: 0;
+        margin-bottom: 12%;
+        float: left;
+    }
+    table{
+        width: 100%;
+        font-size: 1.4em;
+    }
+    .video {
+        overflow: hidden;
+        height: 48em;
+        position: absolute;
+    }
+    .video-opactity {
+        height: 48em;
+    }
+
+    .container-c{
+        display: none;
+    }
+
+    .fish-amount {
+        width: 15%;
+    }
+
+    .statment {
+        font-size: 1.4em;
+
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 800px) and (orientation: landscape)  {
+    .container{
+        height:45em;
+        background: url('../images/landscape1200.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-y: -4em;
+    }
+    .header{
+        width: 44%;
+        left:30%;
+    }
+    .block-logo{
+        padding-top: .5em;
+    }
+    .img-logo{
+        width: 26%;
+    }
+    .review{
+        height:44.5em;
+    }
+    .present {
+        opacity: 0.69;
+        width: 44%;
+        height: 93%;
+        left:30%;
+    }
+    .present-span{
+        font-size: 1em;
+    }
+    .block-text {
+        width: 100%;
+        margin-top: 21%;
+    }
+    #small-span {
+        padding-top: 10%;
+        font-size: 2em;
+    }
+    #ownsea {
+        font-size: 4em;
+    }
+    .catalogy-h, .our-clients {
+        margin: 0 0 0.5em 2em;
+        font-size: 2.5em;
+        padding-top: 1em;
+    }
+    .wrapper {
+        width:100%;
+        padding-top: 1em;
+    }
+
+    .catalogy-a, .callback-span {
+        padding: .7em 0.5em;
+        left:65%;
+    }
+    .catalogy{
+        height:100%;
+    }
+    .catalogy-h4 {
+        font-size: 1.8em;
+     }
+    .send-data {
+        opacity: .87;
+        margin: 11% auto;
+        width: 42%;
+        height: 23.2em;
+    }
+
+    input[type="text"], [type="email"] {
+        margin-bottom: 6%;
+    }
+    #message {
+        font-size: 1em;
+        margin-top: .51em;
+        margin-right: 0;
+    }
+    .contacts {
+        height: 30em;
+    }
+
+    .back-wall,.left-wall{
+        float: right;
+    }
+    .block{
+        width: 45%;
+        margin-left:2.5%;
+        margin-right: 2.5%;
+        margin-bottom: 2%;
+    }
+    .block-image {
+        height: 20.5em;
+        margin-top: 2%;
+    }
+    .item_title {
+        font-size: 2.1em;
+        padding-top: 2%;
+    }
+    table{
+        width: 100%;
+        font-size: 1.8em;
+    }
+    .video {
+        overflow: hidden;
+        height:103em;
+        position: absolute;
+    }
+    .video-opactity {
+        height: 103em;
+    }
+    video{
+        transform:scale(4.7);
+    }
+    .container-c{
+        display: none;
+    }
+
+    .fish-amount {
+        width: 15%;
+    }
+    .send-input,#send {
+        float: left;
+    }
+    .send-input{
+        width: 81%;
+    }
+    .statment {
+        font-size: 1.8em;
+
+    }
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 737px)and (orientation: portrait) {
+    .container{
+        height:34em;
+        background: url('../images/port1000.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-y: -4em;
+    }
+    .header{
+        width: 44%;
+        left:30%;
+    }
+    .block-logo{
+        padding-top: .5em;
+    }
+    .img-logo{
+        width: 30%;
+    }
+
+    .review{
+        height:33.5em;
+    }
+    .present {
+        opacity: 0.69;
+        width: 44%;
+        height: 93%;
+        left:30%;
+    }
+    .present-span{
+        font-size: 1em;
+    }
+    .block-text {
+        width: 100%;
+        margin-top: 21%;
+    }
+    #small-span {
+        padding-top: 10%;
+        font-size: 1.2em;
+    }
+    #ownsea {
+        font-size: 2.7em;
+    }
+    .catalogy-h {
+        margin: 0 0 0.5em 2em;
+        font-size: 2em;
+        padding-top: 1em;
+    }
+    .wrapper {
+        width:100%;
+        padding-top: 1em;
+    }
+    .item_title {
+        font-size: 1.3em;
+        padding-top: 8%;
+    }
+    .catalogy-a, .callback-span {
+        padding: .7em 0.5em;
+        left:65%;
+    }
+    .catalogy{
+        height:100%;
+    }
+    .send-data {
+        opacity: .87;
+        margin: 0 auto;
+        width: 55%;
+        height: 27.2em;
+    }
+
+    input[type="text"], [type="email"] {
+        margin-bottom: 6%;
+    }
+    #message {
+        font-size: 1em;
+        margin-top: .51em;
+        margin-right: 0;
+    }
+    #send{
+        margin-left: 2%;
+     }
+    .contacts {
+        height: 30em;
+    }
+
+    .back-wall,.left-wall{
+        float: right;
+    }
+    .block{
+        width: 45%;
+        margin-left:2.5%;
+        margin-right: 2.5%;
+        margin-bottom: 2%;
+
+    }
+    table{
+        width: 100%;
+        font-size: 1.2em;
+    }
+    .video {
+        overflow: hidden;
+        height:100em;
+        position: absolute;
+    }
+    .video-opactity {
+        height: 100em;
+    }
+    video{
+        transform: scale(6.05);
+    }
+    .container-c{
+        display: none;
+    }
+
+    .fish-amount {
+        width: 15%;
+    }
+
+    .statment {
+        font-size: 1.4em;
+
+    }
+}
+@media screen and (min-width: 767px) and (orientation: portrait) {
+    .container{
+        height:44em;
+        background: url('../images/landscape1300.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-y: -3em;
+        background-position-x: 57%;
+    }
+    .review {
+        height: 43.5em;
+    }
+    video {
+        transform: scale(6.3);
+    }
+}
+
+@media screen and (max-width: 736px) and (min-width: 414px) {
+    .container{
+        height:26em;
+        background: url('../images/landscape900.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-y: -4em;
+    }
+    .header{
+        width: 44%;
+        left:30%;
+    }
+    .block-logo{
+        padding-top: .5em;
+    }
+    .img-logo{
+        width: 30%;
+    }
+
+    .review{
+        height:25.5em;
+    }
+    .present {
+        opacity: 0.69;
+        width: 44%;
+        height: 93%;
+        left:30%;
+    }
+    .present-span{
+        font-size: 1em;
+    }
+    .block-text {
+        width: 100%;
+        margin-top: 21%;
+    }
+    #small-span {
+        padding-top: 10%;
+        font-size: 1.2em;
+    }
+    #ownsea {
+        font-size: 2em;
+    }
+    .catalogy-h, .our-clients {
+        margin: 0 0 0.5em 2em;
+        font-size: 1.7em;
+        padding-top: 1em;
+    }
+    .wrapper {
+        width:100%;
+        padding-top: 1em;
+    }
+
+    .catalogy-a, .callback-span {
+        padding: .7em 0.5em;
+        left:65%;
+    }
+    .catalogy{
+        height:100%;
+    }
+    .send-data {
+        opacity: .87;
+        margin: 0 auto;
+        width: 55%;
+        height: 22.2em;
+    }
+
+    input[type="text"], [type="email"] {
+        margin-bottom: 6%;
+    }
+    #message {
+        font-size: 1em;
+        margin-top: .51em;
+        margin-right: 0;
+    }
+    .contacts {
+        height: 30em;
+    }
+
+    .back-wall,.left-wall{
+        float: right;
+    }
+    .block{
+        width: 45%;
+        margin-left:2.5%;
+        margin-right: 2.5%;
+        margin-bottom: 2%;
+    }
+    table{
+        width: 100%;
+        font-size: 1em;
+    }
+    .video {
+        overflow: hidden;
+        height:81em;
+        position: absolute;
+    }
+    .video-opactity {
+        height: 82em;
+    }
+    video{
+        height:80em;
+        transform:scale(4);
+    }
+    .container-c{
+        display: none;
+    }
+
+    .fish-amount {
+        width: 15%;
+    }
+
+    .statment {
+        font-size: 1.4em;
+
+    }
+}
+
+@media screen and (max-width: 737px) and (min-width: 412px) and (orientation: landscape) {
+    .container{
+        height:26em;
+        background: url('../images/landscape900.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-y: -4em;
+    }
+    .header{
+        width: 44%;
+        left:30%;
+    }
+    .block-logo{
+        padding-top: .5em;
+    }
+    .img-logo{
+        width: 30%;
+    }
+
+    .review{
+        height:25.5em;
+    }
+    .present {
+        opacity: 0.69;
+        width: 44%;
+        height: 93%;
+        left:30%;
+    }
+    .present-span{
+        font-size: 1em;
+    }
+    .block-text {
+        width: 100%;
+        margin-top: 21%;
+    }
+    #small-span {
+        padding-top: 10%;
+        font-size: 1.2em;
+    }
+    #ownsea {
+        font-size: 2em;
+    }
+    .catalogy-h, .our-clients {
+        margin: 0 0 0.5em 2em;
+        font-size: 1.7em;
+        padding-top: 1em;
+    }
+    .wrapper {
+        width:100%;
+        padding-top: 1em;
+    }
+
+    .catalogy-a, .callback-span {
+        padding: .7em 0.5em;
+        left:65%;
+    }
+    .catalogy{
+        height:100%;
+    }
+    .send-data {
+        opacity: .87;
+        margin: 0 auto;
+        width: 55%;
+        height: 22.2em;
+    }
+
+    input[type="text"], [type="email"] {
+        margin-bottom: 6%;
+    }
+    #message {
+        font-size: 1em;
+        margin-top: .51em;
+        margin-right: 0;
+    }
+    .contacts {
+        height: 30em;
+    }
+
+    .back-wall,.left-wall{
+        float: right;
+    }
+    .block{
+        width: 45%;
+        margin-left:2.5%;
+        margin-right: 2.5%;
+        margin-bottom: 2%;
+    }
+    table{
+        width: 100%;
+        font-size: 1em;
+    }
+    .video {
+        overflow: hidden;
+        height:81em;
+        position: absolute;
+    }
+    .video-opactity {
+        height: 82em;
+    }
+    video{
+        height:80em;
+        transform:scale(4);
+    }
+    .container-c{
+        display: none;
+    }
+
+    .fish-amount {
+        width: 15%;
+    }
+
+    .statment {
+        font-size: 1.4em;
+
+    }
+}
+
+@media screen and (max-width: 668px) and (min-width: 374px) and (orientation: landscape) {
+    .container{
+        height:22em;
+        background: url('../images/landscape.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-y: -4em;
+    }
+    .header{
+        width: 44%;
+        left:30%;
+    }
+    .block-logo{
+        padding-top: .5em;
+    }
+    .img-logo{
+        width: 30%;
+    }
+
+    .review{
+        height:21em;
+    }
+    .present {
+        opacity: 0.69;
+        width: 44%;
+        height: 93%;
+        left:30%;
+    }
+    .present-span{
+        font-size: 1em;
+    }
+    .block-text {
+        width: 100%;
+        margin-top: 21%;
+    }
+    #small-span {
+        padding-top: 0;
+        font-size: 1.2em;
+    }
+    #ownsea {
+        font-size: 2em;
+    }
+    .catalogy-h, .our-clients {
+        margin: 0 0 0.5em 2em;
+        font-size: 1.7em;
+        padding-top: 1em;
+    }
+    .wrapper {
+        width:100%;
+        padding-top: 1em;
+    }
+    .item_title {
+        font-size: 1.1em;
+
+    }
+    .catalogy-a, .callback-span {
+        padding: .7em 0.5em;
+        left:65%;
+    }
+    .catalogy{
+        height:100%;
+    }
+    .send-data {
+        opacity: .87;
+        margin: 0 auto;
+        width: 75%;
+        height: 24.5em;
+    }
+
+    input[type="text"], [type="email"] {
+        margin-bottom: 2%;
+    }
+    #message {
+        font-size: 1em;
+        margin-top: .51em;
+        margin-right: 0;
+    }
+    .contacts {
+        height: 30em;
+    }
+
+    .back-wall,.left-wall{
+        float: right;
+    }
+    .block{
+        width: 45%;
+        margin-left:2.5%;
+        margin-right: 2.5%;
+        margin-bottom: 2%;
+    }
+    table{
+        width: 100%;
+        font-size: 1em;
+    }
+    .video {
+        overflow: hidden;
+        height:91em;
+        position: absolute;
+    }
+    .video-opactity {
+        height: 91em;
+    }
+    video{
+        transform:scale(4.55);
+    }
+    .container-c{
+        display: none;
+    }
+
+    .fish-amount {
+        width: 15%;
+    }
+
+    .statment {
+        font-size: 1.4em;
+
+    }
+}
+
+@media screen and (max-width: 568px) and (min-width: 320px) and (orientation: portrait) {
+    .container{
+        height:23em;
+        background: url('../images/comp(5).jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 52%;
+        background-position-y: -3em;
+    }
+    .header{
+        width: 44%;
+        left:30%;
+    }
+    .block-logo{
+        padding-top: .5em;
+    }
+    .img-logo{
+        width: 48%;
+    }
+
+    .review{
+        height: 20em;
+    }
+    .present {
+        opacity: 0.69;
+        width: 54%;
+        height: 93%;
+        left:24%;
+    }
+    .present-span{
+        font-size: 1em;
+    }
+    .block-text {
+        width: 100%;
+        margin-top:35%;
+
+    }
+    #small-span {
+        font-size: .9em;
+        padding-top: 0;
+        letter-spacing: .1em;
+
+    }
+    #ownsea {
+        font-size: 1.7em;
+        padding-top: 16%;
+
+    }
+    .catalogy-h4 {
+        font-size: .95em;
+        padding-top: 4px;
+        display: inline-block;
+        letter-spacing: 1px;
+    }
+    .catalogy-h {
+        font-size: 1.2em;
+        padding-top: 7%;
+        margin: 0 0 0.5em 0;
+    }
+    .wrapper {
+        width:100%;
+        padding-top: 0;
+    }
+    .block{
+        width: 88%;
+        float: none;
+        margin-bottom: 8%;
+        margin-left: 6%;
+    }
+    .video-opactity {
+        height: 125.5em;
+    }
+    video {
+        transform: scale(4.7);
+        position: fixed;
+    }
+    .block-image,.block-about-text{
+        height: 11em;
+    }
+    .block-about-text {
+        margin: auto;
+    }
+    table {
+        width: 100%;
+        font-size: 1.3em;
+    }
+    .fish-amount {
+        width: 25%;
+    }
+    .catalogy-a, .callback-span {
+        padding: .7em 0.5em;
+        left:65%;
+    }
+    .catalogy{
+        height:100%;
+    }
+
+    .item_title {
+         padding-bottom: 0;
+         font-size: 1em;
+         padding-top: 8%;
+     }
+
+    .statment {
+        font-size: 1em;
+        margin: 5% 0;
+    }
+
+ .order{
+     color: #fff;
+     text-decoration: none;
+     font-size: .9em;
+     font-family: 'OpenSansBold';
+}
+
+    .send-data {
+        margin: 0 auto;
+        height: 19em;
+    }
+    .send-input{
+        width: 74%;
+        text-align: center;
+        padding-bottom: 1.5em;
+        margin-bottom: 2em;
+        font-size: .8em;
+    }
+    .send-input {
+        padding: 0;
+    }
+    .send-data {
+        opacity: .8;
+    }
+    #message {
+        font-size: .6em;
+        display: inline-block;
+        margin:0;
+    }
+    .contacts {
+        height: 100%;
+    }
+    .container-c{
+        display: none;
+    }
+
+    .footer-a, .footer-span,.phone{
+        font-size: 0.8em;
+        margin-left: 4%;
+    }
+    .phone{
+        margin-left: 22%;
+    }
+    #send {
+        margin-left: 1em;
+        font-size: .81em;
+        margin-top: 5%;
+    }
+
+    .content{
+        font-size: .86em;
+    }
+    .footer-block {
+        position: relative;
+        z-index: 24;
+    }
+}

@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/OpenSans.ttf');
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/OpenSansBold.ttf');
+}
+@font-face {
+    font-family: 'OpenSansLight';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/OpenSansLight.ttf');
+}
+@font-face {
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/IntroRegular.otf');
+}
+@font-face {
+    font-family: 'IntroCondLightFree';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/IntroCondLightFree.otf');
+}
+
+
+@font-face {
+    font-family: 'HelveticaBold';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/HelveticaBold.otf');
+}
