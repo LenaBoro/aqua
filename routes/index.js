@@ -3,16 +3,19 @@ var router = express.Router();
 var mailer = require('nodemailer');
 var smtpTransport=require('nodemailer-smtp-transport');
 //send on enail info
+
 var transport = mailer.createTransport(smtpTransport,{
     service: "Gmail",
     host: "smtp.gmail.com",
+    port: '465',
+    secure: true,
     auth:{
         user: "nodejs06@gmail.com",
         pass: "20072017"
-    },
-    tls: {
-        rejectUnauthorized: false
     }
+    //,tls: {
+     //   rejectUnauthorized: false
+   // }
 });
 
 router.get('/', function(req, res) {
