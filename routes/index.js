@@ -6,9 +6,8 @@ var smtpTransport=require('nodemailer-smtp-transport');
 
 var transport = mailer.createTransport(smtpTransport,{
     service: "Gmail",
-    host: "smtp.gmail.com",
-    port: '465',
-    secure: true,
+    host: "88.214.237.194:8080",
+    port: '25',
     auth:{
         user: "nodejs06@gmail.com",
         pass: "20072017"
