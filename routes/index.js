@@ -12,9 +12,8 @@ var transport = mailer.createTransport(smtpTransport,{
         user: "nodejs06@gmail.com",
         pass: "20072017"
     }
-    //,tls: {
-     //   rejectUnauthorized: false
-   // }
+    ,tls: {rejectUnauthorized: false
+    }
 });
 
 router.get('/', function(req, res) {
