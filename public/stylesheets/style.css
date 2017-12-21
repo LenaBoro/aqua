@@ -456,13 +456,13 @@ input[type="text"],[type="email"] {
 /*----FOOTER---*/
 .footer{
     width: 100%;
-    height: 6em;
+    height: 4.5em;
     background-color: #fff;
     position: absolute;
+    bottom: 0;
 }
 .footer-block{
     width: 100%;
-    line-height: 2em;
     margin: 1em auto;
     text-align: center;
     position: absolute;
