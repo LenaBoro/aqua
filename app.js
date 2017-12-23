@@ -43,6 +43,5 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-app.listen(8080);
-console.log("Running at Port 3000");
+
 module.exports = app;
