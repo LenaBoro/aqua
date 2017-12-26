@@ -33,7 +33,7 @@ body{
 .container{
     height:53em;
     position: absolute;
-    background: url('../images/comp(5).jpg');
+    background: url('/public/images/comp(5).jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -5em;
@@ -94,8 +94,6 @@ body{
     display: inline-block;
     font-weight: bolder;
 }
-
-
 .tape{
     text-align: center;
     position: relative;
@@ -187,19 +185,19 @@ video{
     font-family: 'OpenSansBold';
 }
 .two-hundred-litrs{
-    background: url('../images/smallp.jpg');
+    background: url('/public/images/smallp.jpg');
 }
 
 .four-hundred-litrs{
-    background: url('../images/400L.jpg');
+    background: url('/public/images/400L.jpg');
     background-position-x: 26%;
 }
 .six-hundred-litrs{
-    background:url('../images/2_2.jpg');
+    background:url('/public/images/2_2.jpg');
     background-position-x: 40%;
 }
 .eight-hundred-litrs{
-    background:url('../images/3_1.jpg');
+    background:url('/public/images/3_1.jpg');
 }
 .two-hundred-litrs,
 .four-hundred-litrs,
@@ -211,10 +209,6 @@ video{
 .text-block-six{
     width: 100%;
 }
-.text-block-eight,.text-block-four {
-
-}
-
 /*----------------*/
 .catalogy-h{
     font-family: 'IntroRegular';
@@ -278,7 +272,7 @@ td{
 }
 .container-c{
     position: static;
-    background: url('../images/5.jpg');
+    background: url('/public/images/5.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -447,11 +441,11 @@ input[type="text"],[type="email"] {
     z-index: 2;
 }
 #updown.up::before {
-    content: url('../images/chevron-arrow-up.png')
+    content: url('/public/images/chevron-arrow-up.png')
 }
 
 #updown.down::before {
-    content: url('../images/chevron-arrow-down.png');
+    content: url('/public/images/chevron-arrow-down.png');
 }
 
 /*----FOOTER---*/

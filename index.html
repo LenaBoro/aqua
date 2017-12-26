@@ -6,17 +6,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="аквариум,аквариумы, морские аквариумы, морские рыбки, скидки на аквариумы ">
-    <link rel="stylesheet" href="stylesheets/style.css">
-    <link rel="stylesheet" href="stylesheets/nexus.css">
-    <link rel="icon" type="image/ico" href="images/favicon.ico">
-    <script src="javascripts/jquery.min.js"></script>
-    <script src="javascripts/index.js"></script>
+    <link rel="stylesheet" href="public/stylesheets/style.css">
+    <link rel="stylesheet" href="public/stylesheets/nexus.css">
+    <link rel="icon" type="image/ico" href="public/images/favicon.ico">
+    <script src="/public/javascripts/jquery.min.js"></script>
+    <script src="/public/javascripts/index.js"></script>
     <title>Морские аквариумы</title>
 </head>
 <body>
 <div class="loader">
     <div class="header">
-        <div class="block-logo"><a href="http://ownsea.ru" class="img-logo"><img src="images/logo.png" alt="Свое Море" class="img-logo"></a></div>
+        <div class="block-logo"><a href="http://ownsea.ru" class="img-logo"><img src="/public/images/logo.png" alt="Свое Море" class="img-logo"></a></div>
     </div>
     <div class="review">
         <div class="container"></div>
@@ -28,7 +28,7 @@
         <div class="video-opactity"></div>
         <div class="video">
             <video autoplay="" loop="" muted="muted">
-                <source src="../images/fish.mp4">
+                <source src="public/images/fish.mp4">
             </video>
         </div>
         <h3 id="catalogy" class="catalogy-h">Это легко</h3><span class="catalogy-h4">спокойствие морской глубины и солнце тропиков в Ваших аппартаментах</span>
@@ -40,7 +40,7 @@
                 <div class="text-block-six">
                     <table>
                         <tr>
-                            <td class="fish"><img src="../images/fish.png" alt="аквариум" class="fish-amount"></td>
+                            <td class="fish"><img src="public/images/fish.png" alt="аквариум" class="fish-amount"></td>
                             <td class="amount-litrs">200 литров</td>
                         </tr>
                         <tr class="full">
@@ -73,7 +73,7 @@
             <div class="block-about-text four-hundred">
                 <table>
                     <tr>
-                        <td class="fish"><img src="../images/fish.png" alt="аквариум" class="fish-amount"></td>
+                        <td class="fish"><img src="public/images/fish.png" alt="аквариум" class="fish-amount"></td>
                         <td class="amount-litrs">400 литров</td>
                     </tr>
                     <tr class="full">
@@ -106,7 +106,7 @@
                 <div class="text-block-six">
                     <table>
                         <tr>
-                            <td class="fish"><img src="../images/fish.png" alt="аквариум" class="fish-amount"></td>
+                            <td class="fish"><img src="public/images/fish.png" alt="аквариум" class="fish-amount"></td>
                             <td class="amount-litrs">600 литров</td>
                         </tr>
                         <tr class="full">
@@ -140,7 +140,7 @@
                 <div class="text-block-six">
                     <table>
                         <tr>
-                            <td class="fish"><img src="../images/fish.png" alt="аквариум" class="fish-amount"></td>
+                            <td class="fish"><img src="public/images/fish.png" alt="аквариум" class="fish-amount"></td>
                             <td class="amount-litrs">800 литров</td>
                         </tr>
                         <tr class="full">
@@ -184,13 +184,13 @@
                     <p class="text-h p-bold">3 шага</p>
                     <p class="text-h">к стильному интерьеру</p>
                 </div>
-                <div class="shop"><img src="images/shop.png" alt="товар" class="icon">
+                <div class="shop"><img src="public/images/shop.png" alt="товар" class="icon">
                     <p>Отправьте контакты</p>
                 </div>
-                <div class="call"><img src="images/call.png" alt="звонок" class="icon">
+                <div class="call"><img src="public/images/call.png" alt="звонок" class="icon">
                     <p>Мы перезвоним вам уточнения заказа</p>
                 </div>
-                <div class="dostavka"><img src="images/dostavka.png" alt="доставка" class="icon">
+                <div class="dostavka"><img src="public/images/dostavka.png" alt="доставка" class="icon">
                     <p>Доставим заказ</p>
                 </div>
             </div>
@@ -199,26 +199,26 @@
         <div id="map"></div>
         <script>
             var map,
-                markerImage = 'images/marker.png',
+                markerImage = 'public/images/marker.png',
                 popupContent= '<p class="content">"Свое море", Санкт-Петербург, улица Академика Константинова, дом 4, корпус 2</p>' +
                     '<p class="content">Контактные телефоны:<a href="tel:8(812)5773999">8(812) 577-39-99 ;  </a><a href="tel:+79219113025">  +7(921) 911-30-25</a> </p>';
             window.initMap= function()  {
                 map = new google.maps.Map(document.getElementById('map'), {
                     center: {lat: 60.018384, lng: 30.377403},
                     zoom: 16
-                })
+                });
                 marker = new google.maps.Marker({
                     position: {lat: 60.018384, lng: 30.377403},
                     map: map,
                     animation: google.maps.Animation.BOUNCE,
                     icon: markerImage
-                })
-                $.getJSON('javascripts/map-styles.json', function (data) {
+                });
+                $.getJSON('public/javascripts/map-styles.json', function (data) {
                     map.setOptions({styles: data});
                 });
                 infowindow = new google.maps.InfoWindow({
                     content: popupContent
-                })
+                });
                 infowindow.open(map, marker);
                 marker.addListener('click', function () {
                     infowindow.open(map, marker);
@@ -226,7 +226,7 @@
             }
         </script>
     </div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAu9f06TpyzBGQjjgoaAbmFBcrDeEYXOIA&amp;callback=initMap"></script>
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyAu9f06TpyzBGQjjgoaAbmFBcrDeEYXOIA&amp;callback=initMap"></script>
     <div id="updown"></div>
     <div class="footer">
         <div class="footer-block"><a href="http://ownsea.ru" class="footer-a"> О компании</a><a href="#catalogy" class="footer-a">Каталог</a><a href="http://ownsea.ru/%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B/" class="footer-a">Контакты:</a><br><a href="tel:+79219113025" class="phone">+7(921) 911-30-2</a></div>
@@ -245,7 +245,7 @@
                         window.scrollTo(0, pageYLabel);
                         this.className = 'up';
                 }
-            }
+            };
             window.onscroll = function () {
                 var pageY = window.pageYOffset || document.documentElement.scrollTop;
                 var innerHeight = document.documentElement.clientHeight;
@@ -257,13 +257,11 @@
                         break;
                     case 'up':
                         if (pageY < innerHeight) {
-                            console.log('up')
                             updownElem.className = '';
                         }
                         break;
                     case 'down':
                         if (pageY > innerHeight) {
-                            console.log('down')
                             updownElem.className = 'up';
                         }
                         break;

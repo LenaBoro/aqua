@@ -2,7 +2,7 @@
 @media screen and (max-width: 1370px) and (min-width: 1024px)and (orientation: landscape) {
     .container{
         height:55em;
-        background: url('../images/landscape1300.jpg');
+        background: url('/public/images/landscape1300.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position-y: -4em;
