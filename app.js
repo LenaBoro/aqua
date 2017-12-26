@@ -4,13 +4,19 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
+var fs = require('fs');
+var url =require('url');
 var index = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
-
+var jsonParser = bodyParser.json();
+var urlencodedParser = bodyParser.urlencoded({extended: true});
 // view engine setup
+app.get("/", function(req, res) {
+    res.sendfile('index.html')
+});
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
@@ -42,6 +48,6 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-app.listen(8080,'localhost');
+app.listen(8081,'localhost');
 
 module.exports = app;
