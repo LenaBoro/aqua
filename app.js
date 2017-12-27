@@ -20,6 +20,6 @@ app.get(/^(.+)$/, function(req, res){
     console.log('static file request : ' + req.params);
     res.sendfile( __dirname + req.params[0]);
 });
-app.listen(8080,'localhost');
-console.log('server start localhost:8080');
+app.listen(8080,'88.214.237.194');
+console.log('server start 88.214.237.194:8080');
 module.exports = app;
