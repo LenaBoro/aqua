@@ -189,8 +189,8 @@
      }
     .send-data {
         opacity: .87;
-        margin: 11% auto;
-        width: 42%;
+        margin: 7% auto;
+        width: 50%;
         height: 23.2em;
     }
 
@@ -233,10 +233,10 @@
         position: absolute;
     }
     .video-opactity {
-        height: 96.2em;
+        height: 101.2em;
     }
     video{
-        transform:scale(4.7);
+        transform:scale(5);
     }
     .container-c{
         display: none;
@@ -256,7 +256,6 @@
 
     }
 }
-
 
 @media screen and (max-width: 1024px) and (min-width: 737px)and (orientation: portrait) {
     .container{
@@ -676,7 +675,7 @@
 
 }
 
-@media screen and (max-width: 736px) and (min-width: 414px) {
+@media screen and (max-width: 736px) and (min-width: 414px),screen and (max-height: 350px) {
     .container{
         height:26em;
         background: url('../images/landscape900.jpg');
@@ -792,7 +791,7 @@
     }
 }
 
-@media screen and (max-width: 737px) and (min-width: 412px) and (orientation: landscape) {
+@media screen and (max-width: 737px) and (min-width: 412px),screen and (max-height: 350px) and (orientation: landscape) {
     .container{
         height:26em;
         background: url('../images/landscape900.jpg');
@@ -853,9 +852,9 @@
     }
     .send-data {
         opacity: .87;
-        margin: 0 auto;
-        width: 55%;
-        height: 22.2em;
+        margin: 121px auto;
+        width: 67%;
+        height: 18.2em
     }
 
     input[type="text"], [type="email"] {
@@ -889,7 +888,7 @@
         position: absolute;
     }
     .video-opactity {
-        height: 82em;
+        height: 81em;
     }
     video{
         height:80em;
@@ -909,7 +908,8 @@
     }
 }
 
-@media screen and (max-width: 668px) and (min-width: 374px) and (orientation: landscape) {
+@media only screen and (max-width: 668px) and (min-width: 374px),screen and (max-height: 300px) and (orientation: landscape)
+{
     .container{
         height:22em;
         background: url('../images/landscape.jpg');
@@ -975,16 +975,18 @@
         opacity: .87;
         margin: 0 auto;
         width: 75%;
-        height: 24.5em;
+        height: 26.5em;
     }
 
-    input[type="text"], [type="email"] {
-        margin-bottom: 2%;
+    input[type="text"], input[type="email"] {
+        margin-bottom: 3%;
+        font-size: 1.2em;
     }
     #send{
         float: right;
         margin-top: 5%;
-        margin-right: 30%;
+        margin-right: 25%;
+        padding:1em 4em;
     }
     #message {
         font-size: 1em;
@@ -1010,14 +1012,14 @@
     }
     .video {
         overflow: hidden;
-        height:91em;
+        height:97em;
         position: absolute;
     }
     .video-opactity {
-        height: 91em;
+        height: 100em;
     }
     video{
-        transform:scale(4.55);
+        transform:scale(5.65);
     }
     .container-c{
         display: none;
@@ -1033,7 +1035,8 @@
     }
 }
 
-@media screen and (max-width: 568px) and (min-width: 320px) and (orientation: portrait) {
+@media only screen and (max-width: 568px) and (min-width: 300px), screen and (max-height: 200px) and (orientation: portrait)
+{
     .container{
         height:23em;
         background: url('../images/comp(5).jpg');
@@ -1103,10 +1106,10 @@
         margin-left: 6%;
     }
     .video-opactity {
-        height: 165.5em;
+        height: 167.5em;
     }
     video {
-        transform: scale(4.7);
+        transform: scale(8.7);
         position: fixed;
     }
     .block-image{

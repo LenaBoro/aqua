@@ -4,7 +4,7 @@
 *{
     margin:0;
     padding: 0;
-    transition: .35s all;
+    transition: .05s all;
 }
 body{
     width:100%;
@@ -172,7 +172,7 @@ video{
     color: #3c4ead;
 }
 .item_price{
-    text-decoration: line-through #fff;
+    text-decoration: line-through;
     font-weight:bold;
     font-family: 'OpenSansBold';
     font-size: .8em;
