@@ -1,39 +1,43 @@
-
 @font-face {
     font-family: 'OpenSans';
     font-style: normal;
     font-weight: 300;
-    src: url('../fonts/OpenSans.ttf');
+    src:  url('../fonts/OpenSans.eot')format("embedded-opentype");
+    src: url('../fonts/OpenSans.ttf')format("truetype");
 }
 @font-face {
     font-family: 'OpenSansBold';
     font-style: normal;
     font-weight: 300;
-    src: url('../fonts/OpenSansBold.ttf');
+    src: url('../fonts/OpenSansBold.eot')format("embedded-opentype");
+    src: url('../fonts/OpenSansBold.ttf')format("truetype");
 }
 @font-face {
     font-family: 'OpenSansLight';
     font-style: normal;
     font-weight: 300;
-    src: url('../fonts/OpenSansLight.ttf');
+    src: url('../fonts/OpenSansLight.eot')format("embedded-opentype");
+    src: url('../fonts/OpenSansLight.ttf')format("truetype");
 }
 @font-face {
     font-family: 'IntroRegular';
     font-style: normal;
     font-weight: 200;
-    src: url('../fonts/IntroRegular.otf');
+    src: url('../fonts/Intro.eot');
+    src: url('../fonts/Intro.ttf');
 }
 @font-face {
     font-family: 'IntroCondLightFree';
     font-style: normal;
     font-weight: 300;
-    src: url('../fonts/IntroCondLightFree.otf');
+    src: url('../fonts/IntroCondLightFree.eot');
+    src: url('../fonts/IntroCondLightFree.ttf');
 }
-
 
 @font-face {
     font-family: 'HelveticaBold';
     font-style: normal;
     font-weight: 300;
+    src: url('../fonts/Helvetica-Bold.eot');
     src: url('../fonts/HelveticaBold.otf');
 }
