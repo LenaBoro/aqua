@@ -853,12 +853,13 @@
     .send-data {
         opacity: .87;
         margin: 121px auto;
-        width: 67%;
+        width: 100%;
         height: 18.2em
     }
 
     input[type="text"], [type="email"] {
-        margin-bottom: 6%;
+        margin-bottom: 2%;
+        width:66%;
     }
     #message {
         font-size: 1em;
@@ -974,7 +975,6 @@
     .send-data {
         opacity: .87;
         margin: 0 auto;
-        width: 75%;
         height: 26.5em;
     }
 
@@ -985,8 +985,16 @@
     #send{
         float: right;
         margin-top: 5%;
-        margin-right: 25%;
-        padding:1em 4em;
+        margin-right: 20%;
+        padding:1em 8.4em;
+    }
+    #updown {
+        height: 4%;
+        width: 3%;
+        position: fixed;
+        right: 9%;
+        bottom: 6%;
+        z-index: 2;
     }
     #message {
         font-size: 1em;
@@ -1012,7 +1020,7 @@
     }
     .video {
         overflow: hidden;
-        height:97em;
+        height:100em;
         position: absolute;
     }
     .video-opactity {
@@ -1106,7 +1114,7 @@
         margin-left: 6%;
     }
     .video-opactity {
-        height: 167.5em;
+        height: 173em;
     }
     video {
         transform: scale(8.7);
@@ -1157,7 +1165,7 @@
         height: 19em;
     }
     .send-input{
-        width: 74%;
+        width: 66%;
         text-align: center;
         padding-bottom: 1.5em;
         margin-bottom: 2em;
@@ -1190,8 +1198,9 @@
     }
     #send {
         margin-left: 1em;
-        font-size: .81em;
+        font-size: 1em;
         margin-top: 5%;
+        padding: 1em 3em;
     }
 
     .content{

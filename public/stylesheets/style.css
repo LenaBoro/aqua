@@ -4,7 +4,10 @@
 *{
     margin:0;
     padding: 0;
-    transition: .05s all;
+    -webkit-transition: .01s all;
+    -moz-transition: .01s all;
+    -o-transition: .01s all;
+    transition: .01s all;
 }
 body{
     width:100%;
@@ -361,9 +364,7 @@ input[type="text"],input[type="email"] {
     width:100%;
     height:12.5em;
     background: #fff;
-    opacity: .95;
     margin-top: 4.5%;
-
 }
 #send{
     padding: 0.8em 2em;
@@ -392,6 +393,8 @@ input[type="text"],input[type="email"] {
 }
 .send-input:-webkit-autofill{
     box-shadow:inset 0 0 0 1000px #fff;
+    -webkit-box-shadow: inset 0 0 0 1000px #fff;
+    -moz-box-shadow: inset 0 0 0 1000px #fff;
 }
 .send-h{
     color: #07075d;
